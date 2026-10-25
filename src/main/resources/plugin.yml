@@ -1,0 +1,12 @@
+name: Npcs
+version: 1.0.0
+main: ua.npc.Main
+api-version: '1.21'
+depend: [ProtocolLib]
+commands:
+  npc:
+    description: Керування NPC
+    usage: /npc help
+permissions:
+  npcs.admin:
+    default: op
